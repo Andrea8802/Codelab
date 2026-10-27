@@ -1,0 +1,14 @@
+{
+  "name": "codelab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PWA per imparare JavaScript: quiz, debug, simulazioni, statistiche",
+  "scripts": {
+    "test": "node tests/content.test.js",
+    "test:e2e": "node tests/e2e.js",
+    "start": "npx http-server -c-1 -p 8080 ."
+  },
+  "devDependencies": {
+    "playwright": "*"
+  }
+}
